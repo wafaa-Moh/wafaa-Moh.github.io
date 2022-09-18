@@ -1,0 +1,51 @@
+<!-- this page needs a log in form for the staff to check or edit their roster in the calendar-->
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <!--meta to provide a summary of a page's content that search engines include in search results-->
+        <meta name="description"content="HAUKAI restaurant  Staff roster, adding shifts in the calendar.">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!--Add meta viewport tag to make the page look good on all screen sizes (Laptop, Mobile)-->
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- App title -->
+        <title>Hours</title>
+        <!-- Link CSS file -->
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+    </head>
+    <body>
+        <!-- main header that is used across all the pages of the website -->
+        <!-- Navigation bar -->
+        <header class="header">
+            <!-- Logo -->
+            <a href="Home.html" class="logo">HAUKAI</a>
+            <!-- Hamburger icon -->
+            <input class="side-menu" type="checkbox" id="side-menu"/>
+            <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+            <!-- Menu -->
+            <nav class="nav">
+                <ul class="menu">
+                    <li><a href="Home.html" >Home</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                    <li><a href="Hours.html" class="active">Hours</a></li>
+                    <li><a href="Menu.html">Menu</a></li>
+                    <li><a href="Reservation.html">Reservation</a></li>
+                    <li><a href="Privacy.html">Privacy</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- Main content -->
+        <h2 class="gform-heading">
+            Check the calendar for staff roster and upcoming events
+        </h2>
+        <div class="gform-container">
+            <div class="iframe-wraper">
+                <iframe title="Staff roster" src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23616161&ctz=Pacific%2FAuckland&src=NWNhZ2s0Zm5ic2JuNnM5dDFrZmFqZ2xuMThAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23F4511E" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>  
+            </div>
+        </div>
+        <!-- footer that is used across all the pages of the website -->
+        <footer>            
+            <p>©Copyright 2022 by HAUKAI Restaurant. All rights reversed.</p>
+        </footer>
+    </body>
+</html>
