@@ -166,36 +166,22 @@ ul{
     font-family: "Inter", sans-serif;
 }
 .home-text h1{
-    font-size: 60px;
+    font-size: 3em;
     margin-bottom: 15px;
     color: rgb(196, 141, 2);
     text-transform: uppercase;
 }
 .home-text h2{
-    font-size: 50px;
+    font-size: 2.5em;
     margin-bottom: 10px;
     color: cadetblue;
 }
 .home-text p{
-    font-size: 20px;
+    font-size: 1.5em;
     width: 45%;
     color:#f5f5f5;
 }
 
-@media screen and (max-width: 700px) {
-    .home-text{
-        margin-left: 25px;
-    }
-    .home-text h1 {
-      font-size: 40px;
-    }
-    .home-text h2 {
-        font-size: 30px;
-    }
-    .home-text p{
-        font-size:15px ;
-    }
-}
 
 /* style contact us page */
 .contact-container{
